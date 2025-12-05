@@ -6,9 +6,7 @@
 ∇ y ← readprob f; s; n
   x ← ⎕FIO['read_text'] f
   s ← (,⊃0=⍴¨x)/⍳⍴x   ⍝ where to split the file
-  y ← ⍎'- ' ⎕MAP ,(⊃(s-1)↑x),' '
-  n ← 0.5 × ⍴y
-  y ← (n, 2)⍴y
+  y ← box ⍎'- ' ⎕MAP ,(⊃(s-1)↑x),' '
 ∇
 
 ⍝ box reshapes a vector into an nx2 matrix
