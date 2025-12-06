@@ -17,22 +17,23 @@
 ⍝ overlaps merges overlaps in an nx2 matrix of ranges
 ∇ y ← overlaps x
   x ← ,x[⍋x;]
-  y ← box (2↑x) lapper 2↓x
+  y ← box lapper x
 ∇
 
-⍝ lapper moves/folds the first range from its right argument
-⍝ to its left argument, merging or deleting as needed
-∇ z ← x lapper y
-  z ← x
-  →(0=⍴y)⍴0 ⍝ nothing left to do
-  →((¯1↑x) < ¯1 + 1 ↑ y)/copy
+⍝ lapper merges overlaps in an even-length vector of ranges
+⍝ sorted in ascending order, by high end within range low
+∇ y ← lapper x
+  y ← 2↑x
+loop:
+  x ← 2 ↓ x
+  →(0=⍴x)⍴0 ⍝ nothing left to do
+  →((¯1↑y) < ¯1 + 1 ↑ x)/copy
 merge:
-  x←(¯1↓x),(¯1↑x)⌈y[2]
-  →cont
+  y[⍴y]←y[⍴y]⌈x[2]
+  →loop
 copy:
-  x←x, 2↑y
-cont:
-  z←x lapper 2↓y
+  y←y, 2↑x
+  →loop
 ∇
 
 ⍝ rangecount returns the number of distinct integers
