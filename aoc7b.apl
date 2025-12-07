@@ -21,14 +21,22 @@
 ⍝ runbeam runs the beam in position b through the grid
 ⍝ starting at row i and returns the number of possible paths taken
 ⍝ g is assumed to be defined in the caller's environment.
+⍝ memo is assumed to be defined in the caller's environment,
+⍝ and should be a matrix of zeroes with the same shape as g.
+⍝ It memoizes function values already computed, so we
+⍝ can avoid a ton of pointless recursion.
 ∇ y ← b runbeam i
-  y ← 1
+  y←1
   →(i > 1↑⍴g)/0
+  y ← memo[i;b]
+  →(y>0)/0
   →(g[i; b])/split
   y ← b runbeam 1 + i
-  →0
+  → done
   split:
   y ← ((b - 1) runbeam i + 1) + ((b + 1) runbeam i + 1)
+done:
+  memo[i;b]←y
 ∇
 
 ⍝ solution: calculate the number of beam splits
@@ -36,6 +44,7 @@
 ∇ y ← aoc7b f; x
   x ← readprob f
   g ← grid x
+  memo ← 0 × g
   y ← (startcol x) runbeam 1
 ∇
 
