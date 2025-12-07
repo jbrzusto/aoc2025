@@ -24,16 +24,16 @@
 ⍝ memo is assumed to be defined in the caller's environment,
 ⍝ and should be a matrix of zeroes with the same shape as g.
 ⍝ It memoizes function values already computed, so we
-⍝ can avoid a ton of pointless recursion.
+⍝ can avoid reams of redundant recursion.
 ∇ y ← b runbeam i
   y←1
   →(i > 1↑⍴g)/0
   y ← memo[i;b]
   →(y>0)/0
-  →(g[i; b])/split
+  →g[i; b]/split
   y ← b runbeam 1 + i
   → done
-  split:
+split:
   y ← ((b - 1) runbeam i + 1) + ((b + 1) runbeam i + 1)
 done:
   memo[i;b]←y
