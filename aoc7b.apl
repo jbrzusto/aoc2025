@@ -26,17 +26,17 @@
 ⍝ It memoizes function values already computed, so we
 ⍝ can avoid reams of redundant recursion.
 ∇ y ← b runbeam i
-  y←1
-  →(i > 1↑⍴g)/0
+  y ← 1
+  → (i > 1↑⍴g)/0
   y ← memo[i;b]
-  →(y>0)/0
-  →g[i; b]/split
+  → (y>0)/0
+  → g[i; b]/split
   y ← b runbeam 1 + i
   → done
 split:
-  y ← ((b - 1) runbeam i + 1) + ((b + 1) runbeam i + 1)
+  y ← ((b - 1) runbeam i + 1) + (b + 1) runbeam i + 1
 done:
-  memo[i;b]←y
+  memo[i;b] ← y
 ∇
 
 ⍝ solution: calculate the number of beam splits
