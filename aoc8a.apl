@@ -8,10 +8,10 @@
 
 ⍝ dists calculates distances between distinct rows in
 ⍝ an nx3 matrix, finds the largest m such distances, and
-⍝ returns a matrix with 3 columns corresponding to these
+⍝ returns a matrix with 2 columns corresponding to these
 ⍝ distances, sorted in increasing order of distance
 ⍝ - [;1] index of first row
-⍝ - [;2] index of second row (<[;1])
+⍝ - [;2] index of second row
 ∇ y ← m dists x; n; d; r1; r2
   n ← 1↑⍴x
   d ← (1⊂x)∘.{+/(⍺-⍵)*2}(1⊂x)
