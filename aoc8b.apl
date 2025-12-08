@@ -34,7 +34,7 @@
 ⍝ have been added or all junction boxes are in a single circuit.  It
 ⍝ returns a vector of the two junction boxes whose connection
 ⍝ completed the circuit.
-∇ y ← fullcircuit m; jbs; s; r
+∇ y ← fullcircuit m; jbs; s; r; i
   ⍝ start with each (unique) jb in its own nested circuit
   jbs ← ∪,m
   s ← (⍳⍴jbs)⊂jbs
