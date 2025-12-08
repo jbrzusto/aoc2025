@@ -26,44 +26,33 @@
   y ← y[⍋y[;3];1 2]
 ∇
 
-⍝ fullcircuit makes the connections between junction boxes
-⍝ as indicated by an nx2 matrix m of junction box numbers,
-⍝ where each row is a connection between junction boxes.
-⍝ It adds edges in order from shortest to longest distance
-⍝ until either all edges have been added or all junction boxes
-⍝ are in a single circuit.
-⍝ it returns the indexes of the last two junction boxes added
-∇ y ← fullcircuit m; n; cn; r; nc
-  n ← ⌈/,m ⍝ largest jb number
-  cn ← n ⍴ 0 ⍝ circuit number for each jb; 0 means not in a circuit yet
-  r ← 1 ⍝ current row
-  nc ← 0 ⍝ number of circuits
+⍝ fullcircuit makes the connections between junction boxes as
+⍝ indicated by an nx2 matrix m of junction box numbers, where each row
+⍝ is a connection between junction boxes given by indexes in the first
+⍝ and second columns. It connects pairs of junction boxes using edges
+⍝ in order from shortest to longest distance until either all edges
+⍝ have been added or all junction boxes are in a single circuit.  It
+⍝ returns a vector of the two junction boxes whose connection
+⍝ completed the circuit.
+∇ y ← fullcircuit m; jbs; s; r
+  ⍝ start with each (unique) jb in its own nested circuit
+  jbs ← ∪,m
+  s ← (⍳⍴jbs)⊂jbs
+  ⍝ process connection matrix rows
+  r ← 0
 loop:
-  → ((nc > 0) ∧ ((⌈/cn) = ⌊/cn))/done ⍝ all jbs in same circuit
-  → ((cn[m[r; 1]] > 0) ∧ (cn[m[r; 2]] > 0))/merge
-  → (cn[m[r; 1]] > 0)/joinleft
-  → (cn[m[r; 2]] > 0)/joinright
-  nc ← nc + 1
-  cn[m[r; 1], m[r; 2]] ← nc
-  → 1/next
-joinleft:
-  ⍝ right jb joins left circuit
-  cn[m[r; 2]] ← cn[m[r; 1]]
-  → 1/next
-joinright:
-  ⍝ left jb joins right circuit
-  cn[m[r; 1]] ← cn[m[r; 2]]
-  → 1/next
-merge:
-  ⍝ jbs in larger circuit relabelled to be in smaller circuit
-  cn[(cn=⌈/cn[m[r;⍳2]])/⍳⍴cn] ← ⌊/cn[m[r;⍳2]]
-  → 1/next
-next:
-  ⍝ comment
-  y ← m[r; ⍳2]
   r ← 1 + r
-  →(r ≤ 1↑⍴m)/loop
-done:
+  → (r > 1↑⍴m)/done
+  ⍝ in which nested circuits are the junction boxes for the next
+  ⍝ connection?
+  i ← {∨/m[r;]∊⍵}¨s
+  ⍝ drop the individual nested circuits, then append their union
+  s ← ((~i)/s), ∪/i/s
+  ⍝ continue if not yet down to a single circuit
+  → (1 ≠ ⍴s)/loop
+  ⍝ return the last connected junction boxes
+  y ← m[r;]
+  done:
 ∇
 
 ⍝ checksum calculates the product of the x coordinates of the two
