@@ -13,7 +13,11 @@
 ⍝ largest area.  So what follows isn't a general solution, because I'm
 ⍝ only filtering out rectangles crossed by the path, not those lying
 ⍝ completely outside it.
-
+⍝
+⍝ This was a bit of a gamble because of the possibility of an exterior
+⍝ rectangle covering the notch, so had the algorithm not come up with
+⍝ the correct answer on the first try, I would have dealt with that
+⍝ explicitly.
 
 ⍝ edgecut checks whether the edge between the points
 ⍝ e[1;] and e[;2] (assumed to be either vertical or horizontal)
