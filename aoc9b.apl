@@ -5,19 +5,18 @@
   y ← ⊃ ⍎¨ (⎕FIO['read_text'] f)
 ∇
 
-⍝ plotting the data shows the path is basically a circle
+⍝ Plotting the data shows the path is basically a circle
 ⍝ with a horizontal notch removed, almost all the way across.
-⍝ the upper half circle has points with y coordinate above 50000,
-⍝ the lower has points with y coordinate below 50000
-⍝ This shape suggests that only quite small rectangles can have
-⍝ two red tiles as corners *and* not be crossed by the red-tile path,
-⍝ so taking the maximum area of all those rectangle which are not
-⍝ crossed by the path should effectively ignore these small exterior
-⍝ rectangles.
+⍝ This shape suggests that any rectangles with two red tiles as corners
+⍝ but which lie entirely outside the overall path cannot be very large,
+⍝ and so can safely be ignored because they won't be the rectangle with the
+⍝ largest area.  So what follows isn't a general solution, because I'm
+⍝ only filtering out rectangles crossed by the path, not those lying
+⍝ completely outside it.
 
 
 ⍝ edgecut checks whether the edge between the points
-⍝ e[1;] to e[;2] (assumed to be either vertical or horizontal)
+⍝ e[1;] and e[;2] (assumed to be either vertical or horizontal)
 ⍝ crosses any of the edges of the rectangle
 ⍝ given in r. r is (xlo, xhi, ylo, yhi)
 ∇ y ← r edgecut e; h
