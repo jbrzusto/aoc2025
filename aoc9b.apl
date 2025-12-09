@@ -59,8 +59,10 @@ horiz:
 ⍝ allareas computes the areas of rectangles formed by all pairs of
 ⍝ red tiles, and filters out those which are crossed by the path.
 ⍝ nr is the number of red tiles
-∇ y ← allareas nr
-  y ← ((⍳nr)⊂(⍳nr)) ∘.{(⍺ good ⍵)/(⍺ area ⍵)} (⍳nr)⊂(⍳nr)
+∇ y ← allareas nr; i
+  ⍝ i is the numbers 1..nr, each in its own nested array
+  i ← (⍳nr)⊂(⍳nr)
+  y ← i ∘.{(⍺ good ⍵)/(⍺ area ⍵)} i
 ∇
 
 ∇ y ← aoc9b f
