@@ -11,7 +11,9 @@ In both of them, the `overlaps` function is wrong!
 There is a working version in `aoc5b.apl`, which is the first
 place it was actually needed.
 
-`aoc9b.apl` took ~ 10 minutes to run on a 2024 Macbook Pro
+`aoc8b.apl` has a cleaner version of the circuit builder than `aoc8a.apl`
+
+`aoc9b.apl` took ~ 15 minutes to run on a 2024 Macbook Pro; the selected square is shown in `aoc9b_plot.png`
 
 
 
