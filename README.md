@@ -11,6 +11,7 @@ In both of them, the `overlaps` function is wrong!
 There is a working version in `aoc5b.apl`, which is the first
 place it was actually needed.
 
+`aoc9b.apl` took ~ 10 minutes to run on a 2024 Macbook Pro
 
 
 
