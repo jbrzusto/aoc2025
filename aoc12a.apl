@@ -28,14 +28,7 @@
   y ← ∪ (m) (⊖m) (⌽m) (⌽⊖m) (⍉m) (⍉⊖m) (⍉⌽m) (⍉⌽⊖m)
 ∇
 
-⍝ punch returns the 3x3 submatrix of m centred at c
-⍝ c is a row, column pair, and we assume 
-⍝  1 < c[1] < 1↑⍴m
-⍝  1 < c[2] < 1↓⍴m
-∇ y ← m punch c
-  y ← m[¯1 0 1 + c[1]; ¯1 0 1 + c[2]]
-∇
-
+⍝ <======  NOT USED IN CURRENT SOLUTION ===========>
 ⍝ frame returns a 7x7 matrix with pose p at its
 ⍝ centre and zeroes elsewhere
 ∇ y ← frame p
@@ -59,6 +52,7 @@
   ⍝ check which displacements dont overlap
   y ← (,(d ∘.{1=⌈/,fp+⍺⊖⍵⌽fq} d)) / ,(d ∘., -d)
 ∇  
+⍝ </======  NOT USED IN CURRENT SOLUTION ===========>
 
 ⍝ iterpos gives the 2-vector which is the next centre
 ⍝ location to try after p, which is a two vector
