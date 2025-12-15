@@ -1,0 +1,1014 @@
+      
+ ==> freevars:   2 
+ problem size 20 
+ merged buttons  5 2  due to being the only differences between counters  1 2 
+ removed duplicate counter 2 
+ merged buttons  2 1  due to being the only differences between counters  2 3 
+ removed duplicate button 1 
+ removed duplicate counter 3 
+ merged buttons  3 1  due to being the only differences between counters  1 2 
+ removed duplicate button 1 
+ DONE  1 
+ ==> freevars:   1 
+ problem size 6 
+ removed button  4  due to it being the only difference between counters  3 4 
+ removed duplicate counter 4 
+ removed button  4  and counter  2  after zeroing 
+ merged buttons  3 2  due to being the only differences between counters  1 2 
+ removed duplicate button 2 
+ DONE  2 
+ ==> freevars:   1 
+ problem size 12 
+ removed duplicate counter 5 
+ removed duplicate counter 3 
+ removed button  3  and counter  4  after zeroing 
+ merged buttons  2 3  due to being the only differences between counters  1 2 
+ removed duplicate button 2 
+ DONE  3 
+ ===> grand total:    10  12  11  
+
+ DONE  1 
+ DONE  2 
+ ==> freevars:   2 
+ problem size 496 
+ removed button  9  and counter  3  after zeroing 
+ merged buttons  6 5  due to being the only differences between counters  1 6 
+ removed duplicate counter 6 
+ ==> freevars:   2 
+ problem size 448 
+ DONE  3 
+ ==> freevars:   2 
+ problem size 2320 
+ merged buttons  1 6  due to being the only differences between counters  1 3 
+ removed duplicate counter 3 
+ merged buttons  2 4  due to being the only differences between counters  3 1 
+ removed duplicate counter 3 
+ ==> freevars:   2 
+ problem size 2444 
+ DONE  4 
+ ==> freevars:   1 
+ problem size 37 
+ removed button  3  due to it being the only difference between counters  2 3 
+ removed duplicate counter 3 
+ removed button  5  due to it being the only difference between counters  2 6 
+ removed duplicate counter 6 
+ removed button  3  and counter  5  after zeroing 
+ removed button  1  due to it being the only difference between counters  2 5 
+ removed duplicate counter 5 
+ merged buttons  3 1  due to being the only differences between counters  3 4 
+ removed duplicate counter 4 
+ ==> freevars:   1 
+ problem size 28 
+ DONE  5 
+ ==> freevars:   2 
+ problem size 3801 
+ merged buttons  4 3  due to being the only differences between counters  3 1 
+ removed duplicate counter 3 
+ merged buttons  5 4  due to being the only differences between counters  3 2 
+ removed duplicate button 4 
+ removed duplicate counter 3 
+ merged buttons  1 2  due to being the only differences between counters  1 2 
+ removed duplicate button 1 
+ DONE  6 
+ DONE  7 
+ DONE  8 
+ ==> freevars:   1 
+ problem size 51 
+ removed button  6  due to it being the only difference between counters  1 6 
+ removed duplicate counter 6 
+ removed button  2  and counter  3  after zeroing 
+ merged buttons  5 2  due to being the only differences between counters  3 1 
+ removed duplicate counter 3 
+ merged buttons  3 5  due to being the only differences between counters  2 1 
+ removed duplicate counter 2 
+ ==> freevars:   1 
+ problem size 37 
+ DONE  9 
+ ==> freevars:   1 
+ problem size 26 
+ merged buttons  5 6  due to being the only differences between counters  7 6 
+ removed duplicate counter 7 
+ ==> freevars:   1 
+ problem size 26 
+ DONE  10 
+ ==> freevars:   2 
+ problem size 5421 
+ removed button  8  due to it being the only difference between counters  2 5 
+ removed duplicate counter 5 
+ ==> freevars:   2 
+ problem size 5421 
+ DONE  11 
+ DONE  12 
+ ==> freevars:   2 
+ problem size 1591 
+ removed button  4  and counter  3  after zeroing 
+ ==> freevars:   2 
+ problem size 1225 
+ DONE  13 
+ ==> freevars:   2 
+ problem size 986 
+ ==> freevars:   2 
+ problem size 986 
+ DONE  14 
+ DONE  15 
+ ==> freevars:   1 
+ problem size 39 
+ removed button  3  due to it being the only difference between counters  3 7 
+ removed duplicate counter 7 
+ removed button  3  due to it being the only difference between counters  5 6 
+ removed duplicate counter 6 
+ merged buttons  4 5  due to being the only differences between counters  4 1 
+ removed duplicate counter 4 
+ removed duplicate counter 4 
+ removed button  4  and counter  3  after zeroing 
+ merged buttons  2 3  due to being the only differences between counters  1 2 
+ removed duplicate button 2 
+ DONE  16 
+ DONE  17 
+ DONE  18 
+ ==> freevars:   2 
+ problem size 550 
+ merged buttons  1 8  due to being the only differences between counters  1 4 
+ removed duplicate counter 4 
+ merged buttons  6 4  due to being the only differences between counters  3 4 
+ removed duplicate counter 4 
+ ==> freevars:   2 
+ problem size 252 
+ DONE  19 
+ ==> freevars:   1 
+ problem size 16 
+ removed button  4  and counter  3  after zeroing 
+ removed button  2  due to it being the only difference between counters  3 4 
+ removed duplicate counter 4 
+ removed button  1  and counter  1  after zeroing 
+ merged buttons  3 2  due to being the only differences between counters  1 2 
+ removed duplicate button 2 
+ DONE  20 
+ ==> freevars:   1 
+ problem size 45 
+ merged buttons  5 1  due to being the only differences between counters  1 2 
+ removed duplicate counter 2 
+ removed duplicate counter 5 
+ merged buttons  2 3  due to being the only differences between counters  2 1 
+ removed duplicate counter 2 
+ ==> freevars:   1 
+ problem size 43 
+ DONE  21 
+ ==> freevars:   2 
+ problem size 1961 
+ merged buttons  5 2  due to being the only differences between counters  3 5 
+ removed duplicate counter 5 
+ merged buttons  10 9  due to being the only differences between counters  6 4 
+ removed duplicate counter 6 
+ merged buttons  6 3  due to being the only differences between counters  7 4 
+ removed duplicate counter 7 
+ ==> freevars:   2 
+ problem size 1110 
+ DONE  22 
+ ==> freevars:   2 
+ problem size 3410 
+ ==> freevars:   2 
+ problem size 3410 
+ DONE  23 
+ ==> freevars:   1 
+ problem size 23 
+ removed button  5  and counter  5  after zeroing 
+ merged buttons  4 1  due to being the only differences between counters  2 4 
+ removed duplicate counter 4 
+ ==> freevars:   1 
+ problem size 20 
+ DONE  24 
+ DONE  25 
+ ==> freevars:   1 
+ problem size 50 
+ merged buttons  5 1  due to being the only differences between counters  6 8 
+ removed duplicate counter 8 
+ merged buttons  4 3  due to being the only differences between counters  6 8 
+ removed duplicate counter 8 
+ ==> freevars:   1 
+ problem size 50 
+ DONE  26 
+ DONE  27 
+ DONE  28 
+ DONE  29 
+ ==> freevars:   1 
+ problem size 45 
+ removed button  6  due to it being the only difference between counters  1 4 
+ removed duplicate counter 4 
+ merged buttons  4 6  due to being the only differences between counters  2 4 
+ removed duplicate counter 4 
+ removed button  1  due to it being the only difference between counters  1 3 
+ removed duplicate counter 3 
+ removed button  2  due to it being the only difference between counters  1 3 
+ removed duplicate counter 3 
+ merged buttons  3 1  due to being the only differences between counters  2 1 
+ removed duplicate button 1 
+ DONE  30 
+ DONE  31 
+ DONE  32 
+ DONE  33 
+ ==> freevars:   3 
+ problem size 328304 
+ merged buttons  13 11  due to being the only differences between counters  5 4 
+ removed duplicate counter 5 
+ ==> freevars:   3 
+ problem size 49096 
+ DONE  34 
+ ==> freevars:   1 
+ problem size 19 
+ merged buttons  2 6  due to being the only differences between counters  2 8 
+ removed duplicate counter 8 
+ removed button  7  due to it being the only difference between counters  6 7 
+ removed duplicate counter 7 
+ removed button  1  and counter  3  after zeroing 
+ ==> freevars:   1 
+ problem size 21 
+ DONE  35 
+ DONE  36 
+ DONE  37 
+ ==> freevars:   2 
+ problem size 1760 
+ ==> freevars:   2 
+ problem size 1760 
+ DONE  38 
+ DONE  39 
+ DONE  40 
+ DONE  41 
+ DONE  42 
+ ==> freevars:   2 
+ problem size 7280 
+ removed button  2  due to it being the only difference between counters  4 6 
+ removed duplicate counter 6 
+ merged buttons  9 5  due to being the only differences between counters  2 4 
+ removed duplicate counter 4 
+ ==> freevars:   2 
+ problem size 2828 
+ DONE  43 
+ DONE  44 
+ ==> freevars:   1 
+ problem size 40 
+ removed button  6  due to it being the only difference between counters  2 6 
+ removed duplicate counter 6 
+ removed button  3  due to it being the only difference between counters  1 4 
+ removed duplicate counter 4 
+ merged buttons  5 8  due to being the only differences between counters  7 4 
+ removed duplicate counter 7 
+ ==> freevars:   1 
+ problem size 25 
+ DONE  45 
+ DONE  46 
+ ==> freevars:   2 
+ problem size 400 
+ ==> freevars:   2 
+ problem size 400 
+ DONE  47 
+ DONE  48 
+ DONE  49 
+ ==> freevars:   1 
+ problem size 40 
+ removed button  1  due to it being the only difference between counters  1 5 
+ removed duplicate counter 5 
+ removed button  6  due to it being the only difference between counters  1 5 
+ removed duplicate counter 5 
+ removed button  3  and counter  3  after zeroing 
+ merged buttons  4 3  due to being the only differences between counters  3 2 
+ removed duplicate counter 3 
+ ==> freevars:   1 
+ problem size 22 
+ DONE  50 
+ ==> freevars:   1 
+ problem size 33 
+ removed button  3  due to it being the only difference between counters  5 8 
+ removed duplicate counter 8 
+ removed button  7  due to it being the only difference between counters  3 4 
+ removed duplicate counter 4 
+ merged buttons  3 5  due to being the only differences between counters  3 4 
+ removed duplicate counter 4 
+ removed button  3  and counter  4  after zeroing 
+ merged buttons  4 2  due to being the only differences between counters  2 5 
+ removed duplicate counter 5 
+ ==> freevars:   1 
+ problem size 27 
+ DONE  51 
+ DONE  52 
+ ==> freevars:   1 
+ problem size 1 
+ removed button  7  and counter  2  after zeroing 
+ removed button  1  due to it being the only difference between counters  1 7 
+ removed duplicate counter 7 
+ merged buttons  1 6  due to being the only differences between counters  2 7 
+ removed duplicate counter 7 
+ removed duplicate counter 6 
+ removed button  1  due to it being the only difference between counters  1 3 
+ removed duplicate counter 3 
+ merged buttons  2 1  due to being the only differences between counters  1 3 
+ removed duplicate counter 3 
+ merged buttons  2 3  due to being the only differences between counters  1 3 
+ removed duplicate button 1 
+ DONE  53 
+ DONE  54 
+ DONE  55 
+ DONE  56 
+ ==> freevars:   3 
+ problem size 282408 
+ merged buttons  4 3  due to being the only differences between counters  1 5 
+ removed duplicate counter 5 
+ merged buttons  7 10  due to being the only differences between counters  5 8 
+ removed duplicate counter 8 
+ ==> freevars:   3 
+ problem size 261744 
+ DONE  57 
+ DONE  58 
+ DONE  59 
+ ==> freevars:   1 
+ problem size 28 
+ removed button  6  and counter  2  after zeroing 
+ removed button  6  due to it being the only difference between counters  2 4 
+ removed duplicate counter 4 
+ removed button  5  due to it being the only difference between counters  3 4 
+ removed duplicate counter 4 
+ removed button  2  and counter  2  after zeroing 
+ merged buttons  1 2  due to being the only differences between counters  1 3 
+ removed duplicate counter 3 
+ removed duplicate counter 3 
+ merged buttons  2 3  due to being the only differences between counters  2 1 
+ removed duplicate button 1 
+ DONE  60 
+ DONE  61 
+ DONE  62 
+ ==> freevars:   1 
+ problem size 202 
+ removed duplicate counter 3 
+ removed button  4  and counter  3  after zeroing 
+ merged buttons  1 3  due to being the only differences between counters  2 1 
+ removed duplicate button 1 
+ DONE  63 
+ DONE  64 
+ ==> freevars:   1 
+ problem size 15 
+ merged buttons  4 1  due to being the only differences between counters  2 1 
+ removed duplicate counter 2 
+ ==> freevars:   1 
+ problem size 4 
+ DONE  65 
+ ==> freevars:   1 
+ problem size 46 
+ merged buttons  8 7  due to being the only differences between counters  3 1 
+ removed duplicate counter 3 
+ merged buttons  1 3  due to being the only differences between counters  1 3 
+ removed duplicate counter 3 
+ merged buttons  6 4  due to being the only differences between counters  1 5 
+ removed duplicate counter 5 
+ removed button  5  due to it being the only difference between counters  2 4 
+ removed duplicate counter 4 
+ merged buttons  2 5  due to being the only differences between counters  1 2 
+ removed duplicate counter 2 
+ merged buttons  3 4  due to being the only differences between counters  1 3 
+ removed duplicate button 2 
+ removed duplicate counter 3 
+ removed button  2  and counter  2  after zeroing 
+ DONE  66 
+ DONE  67 
+ ==> freevars:   1 
+ problem size 28 
+ removed button  9  and counter  5  after zeroing 
+ merged buttons  3 9  due to being the only differences between counters  8 1 
+ removed duplicate counter 8 
+ merged buttons  3 4  due to being the only differences between counters  4 5 
+ removed duplicate counter 5 
+ merged buttons  7 2  due to being the only differences between counters  4 6 
+ removed duplicate counter 6 
+ ==> freevars:   1 
+ problem size 26 
+ DONE  68 
+ DONE  69 
+ ==> freevars:   1 
+ problem size 29 
+ removed duplicate counter 4 
+ removed button  4  due to it being the only difference between counters  1 4 
+ removed duplicate counter 4 
+ merged buttons  1 3  due to being the only differences between counters  1 2 
+ removed duplicate counter 2 
+ merged buttons  2 3  due to being the only differences between counters  2 1 
+ removed duplicate button 1 
+ DONE  70 
+ DONE  71 
+ DONE  72 
+ DONE  73 
+ DONE  74 
+ DONE  75 
+ ==> freevars:   2 
+ problem size 1980 
+ merged buttons  1 5  due to being the only differences between counters  4 5 
+ removed duplicate counter 5 
+ ==> freevars:   2 
+ problem size 1849 
+ DONE  76 
+ ==> freevars:   2 
+ problem size 1404 
+ ==> freevars:   2 
+ problem size 1404 
+ DONE  77 
+ ==> freevars:   1 
+ problem size 31 
+ merged buttons  8 4  due to being the only differences between counters  8 10 
+ removed duplicate counter 10 
+ ==> freevars:   1 
+ problem size 31 
+ DONE  78 
+ ==> freevars:   2 
+ problem size 120 
+ ==> freevars:   2 
+ problem size 120 
+ DONE  79 
+ DONE  80 
+ ==> freevars:   1 
+ problem size 19 
+ removed button  1  and counter  3  after zeroing 
+ merged buttons  1 4  due to being the only differences between counters  3 1 
+ removed duplicate counter 3 
+ ==> freevars:   1 
+ problem size 21 
+ DONE  81 
+ ==> freevars:   1 
+ problem size 23 
+ removed button  4  due to it being the only difference between counters  3 4 
+ removed duplicate counter 4 
+ removed button  8  due to it being the only difference between counters  5 6 
+ removed duplicate counter 6 
+ ==> freevars:   1 
+ problem size 14 
+ DONE  82 
+ DONE  83 
+ ==> freevars:   1 
+ problem size 5 
+ removed button  2  and counter  3  after zeroing 
+ removed button  1  due to it being the only difference between counters  1 3 
+ removed duplicate counter 3 
+ merged buttons  5 3  due to being the only differences between counters  1 2 
+ removed duplicate counter 2 
+ ==> freevars:   1 
+ problem size 2 
+ DONE  84 
+ ==> freevars:   1 
+ problem size 48 
+ removed button  4  due to it being the only difference between counters  2 8 
+ removed duplicate counter 8 
+ merged buttons  6 1  due to being the only differences between counters  8 3 
+ removed duplicate counter 8 
+ ==> freevars:   1 
+ problem size 37 
+ DONE  85 
+ ==> freevars:   1 
+ problem size 36 
+ removed button  7  due to it being the only difference between counters  3 6 
+ removed duplicate counter 6 
+ merged buttons  3 1  due to being the only differences between counters  1 4 
+ removed duplicate counter 4 
+ removed button  2  and counter  2  after zeroing 
+ removed button  3  due to it being the only difference between counters  2 3 
+ removed duplicate counter 3 
+ merged buttons  1 3  due to being the only differences between counters  1 2 
+ removed duplicate button 1 
+ DONE  86 
+ ==> freevars:   1 
+ problem size 9 
+ removed button  3  due to it being the only difference between counters  1 5 
+ removed duplicate counter 5 
+ merged buttons  1 2  due to being the only differences between counters  1 3 
+ removed duplicate counter 3 
+ merged buttons  3 2  due to being the only differences between counters  2 3 
+ removed duplicate counter 3 
+ ==> freevars:   1 
+ problem size 9 
+ DONE  87 
+ DONE  88 
+ DONE  89 
+ DONE  90 
+ DONE  91 
+ DONE  92 
+ DONE  93 
+ DONE  94 
+ DONE  95 
+ ==> freevars:   1 
+ problem size 43 
+ ==> freevars:   1 
+ problem size 43 
+ DONE  96 
+ ==> freevars:   3 
+ problem size 102942 
+ removed duplicate counter 7 
+ ==> freevars:   3 
+ problem size 102942 
+ DONE  97 
+ DONE  98 
+ ==> freevars:   1 
+ problem size 43 
+ removed duplicate counter 9 
+ removed button  8  due to it being the only difference between counters  1 8 
+ removed duplicate counter 8 
+ merged buttons  3 5  due to being the only differences between counters  6 3 
+ removed duplicate counter 6 
+ removed button  4  due to it being the only difference between counters  5 7 
+ removed duplicate counter 7 
+ ==> freevars:   1 
+ problem size 27 
+ DONE  99 
+ DONE  100 
+ DONE  101 
+ ==> freevars:   2 
+ problem size 650 
+ removed button  3  due to it being the only difference between counters  3 5 
+ removed duplicate counter 5 
+ merged buttons  4 6  due to being the only differences between counters  3 2 
+ removed duplicate counter 3 
+ ==> freevars:   2 
+ problem size 988 
+ DONE  102 
+ ==> freevars:   2 
+ problem size 1075 
+ removed button  4  due to it being the only difference between counters  1 9 
+ removed duplicate counter 9 
+ merged buttons  4 6  due to being the only differences between counters  9 1 
+ removed duplicate counter 9 
+ removed duplicate counter 6 
+ ==> freevars:   2 
+ problem size 900 
+ DONE  103 
+ ==> freevars:   1 
+ problem size 17 
+ removed button  1  and counter  3  after zeroing 
+ merged buttons  2 3  due to being the only differences between counters  1 2 
+ removed duplicate button 2 
+ removed duplicate counter 2 
+ removed button  2  and counter  1  after zeroing 
+ DONE  104 
+ ==> freevars:   1 
+ problem size 49 
+ merged buttons  6 3  due to being the only differences between counters  2 1 
+ removed duplicate counter 2 
+ merged buttons  4 8  due to being the only differences between counters  1 4 
+ removed duplicate counter 4 
+ ==> freevars:   1 
+ problem size 52 
+ DONE  105 
+ ==> freevars:   2 
+ problem size 665 
+ merged buttons  4 5  due to being the only differences between counters  3 4 
+ removed duplicate button 4 
+ removed duplicate counter 4 
+ merged buttons  3 2  due to being the only differences between counters  1 2 
+ removed duplicate counter 2 
+ ==> freevars:   1 
+ problem size 19 
+ DONE  106 
+ ==> freevars:   1 
+ problem size 15 
+ removed button  3  and counter  5  after zeroing 
+ removed button  4  due to it being the only difference between counters  1 2 
+ removed duplicate counter 2 
+ merged buttons  4 1  due to being the only differences between counters  2 1 
+ removed duplicate counter 2 
+ ==> freevars:   1 
+ problem size 5 
+ DONE  107 
+ ==> freevars:   2 
+ problem size 414 
+ removed button  11  and counter  10  after zeroing 
+ removed button  10  due to it being the only difference between counters  6 7 
+ removed duplicate counter 7 
+ merged buttons  8 1  due to being the only differences between counters  3 5 
+ removed duplicate counter 5 
+ ==> freevars:   2 
+ problem size 360 
+ DONE  108 
+ ==> freevars:   1 
+ problem size 26 
+ merged buttons  2 7  due to being the only differences between counters  1 5 
+ removed duplicate counter 5 
+ ==> freevars:   1 
+ problem size 13 
+ DONE  109 
+ ==> freevars:   1 
+ problem size 36 
+ merged buttons  2 4  due to being the only differences between counters  2 4 
+ removed duplicate counter 4 
+ removed button  2  and counter  8  after zeroing 
+ removed button  8  due to it being the only difference between counters  1 7 
+ removed duplicate counter 7 
+ removed button  3  due to it being the only difference between counters  2 5 
+ removed duplicate counter 5 
+ merged buttons  2 1  due to being the only differences between counters  5 3 
+ removed duplicate counter 5 
+ ==> freevars:   1 
+ problem size 6 
+ DONE  110 
+ ==> freevars:   1 
+ problem size 35 
+ removed button  7  and counter  1  after zeroing 
+ removed button  6  due to it being the only difference between counters  2 3 
+ removed duplicate counter 3 
+ removed duplicate counter 5 
+ removed button  3  and counter  1  after zeroing 
+ removed button  1  due to it being the only difference between counters  2 3 
+ removed duplicate counter 3 
+ merged buttons  1 2  due to being the only differences between counters  2 1 
+ removed duplicate button 1 
+ DONE  111 
+ DONE  112 
+ ==> freevars:   1 
+ problem size 5 
+ merged buttons  1 3  due to being the only differences between counters  2 1 
+ removed duplicate counter 2 
+ removed button  4  due to it being the only difference between counters  2 3 
+ removed duplicate counter 3 
+ merged buttons  2 3  due to being the only differences between counters  1 2 
+ removed duplicate button 1 
+ DONE  113 
+ ==> freevars:   1 
+ problem size 16 
+ removed button  4  and counter  4  after zeroing 
+ merged buttons  2 1  due to being the only differences between counters  1 2 
+ removed duplicate counter 2 
+ merged buttons  1 2  due to being the only differences between counters  1 2 
+ removed duplicate button 1 
+ DONE  114 
+ DONE  115 
+ ==> freevars:   2 
+ problem size 729 
+ ==> freevars:   2 
+ problem size 729 
+ DONE  116 
+ DONE  117 
+ DONE  118 
+ ==> freevars:   2 
+ problem size 195 
+ removed button  5  due to it being the only difference between counters  4 6 
+ removed duplicate counter 6 
+ ==> freevars:   2 
+ problem size 195 
+ DONE  119 
+ DONE  120 
+ DONE  121 
+ ==> freevars:   1 
+ problem size 23 
+ removed button  5  due to it being the only difference between counters  1 2 
+ removed duplicate counter 2 
+ removed duplicate counter 4 
+ merged buttons  2 4  due to being the only differences between counters  3 1 
+ removed duplicate counter 3 
+ merged buttons  3 1  due to being the only differences between counters  1 2 
+ removed duplicate button 1 
+ DONE  122 
+ ==> freevars:   1 
+ problem size 17 
+ removed button  3  and counter  2  after zeroing 
+ removed button  3  due to it being the only difference between counters  3 5 
+ removed duplicate counter 5 
+ removed button  2  and counter  1  after zeroing 
+ merged buttons  4 2  due to being the only differences between counters  4 3 
+ removed duplicate counter 4 
+ ==> freevars:   1 
+ problem size 17 
+ DONE  123 
+ DONE  124 
+ ==> freevars:   3 
+ problem size 309082 
+ ==> freevars:   3 
+ problem size 309082 
+ DONE  125 
+ ==> freevars:   2 
+ problem size 1968 
+ removed button  2  due to it being the only difference between counters  1 2 
+ removed duplicate counter 2 
+ ==> freevars:   2 
+ problem size 1968 
+ DONE  126 
+ ==> freevars:   2 
+ problem size 387 
+ merged buttons  5 10  due to being the only differences between counters  2 9 
+ removed duplicate counter 9 
+ ==> freevars:   2 
+ problem size 333 
+ DONE  127 
+ ==> freevars:   1 
+ problem size 38 
+ removed button  5  due to it being the only difference between counters  2 4 
+ removed duplicate counter 4 
+ merged buttons  3 4  due to being the only differences between counters  1 5 
+ removed duplicate counter 5 
+ merged buttons  5 6  due to being the only differences between counters  2 4 
+ removed duplicate counter 4 
+ ==> freevars:   1 
+ problem size 17 
+ DONE  128 
+ ==> freevars:   1 
+ problem size 42 
+ removed button  5  and counter  2  after zeroing 
+ merged buttons  5 4  due to being the only differences between counters  3 2 
+ removed duplicate counter 3 
+ merged buttons  2 1  due to being the only differences between counters  3 2 
+ removed duplicate button 1 
+ removed duplicate counter 3 
+ removed button  2  and counter  1  after zeroing 
+ DONE  129 
+ ==> freevars:   3 
+ problem size 134848 
+ removed button  12  due to it being the only difference between counters  1 7 
+ removed duplicate counter 7 
+ ==> freevars:   3 
+ problem size 85312 
+ DONE  130 
+ ==> freevars:   1 
+ problem size 41 
+ removed button  4  due to it being the only difference between counters  2 3 
+ removed duplicate counter 3 
+ removed button  5  and counter  3  after zeroing 
+ removed button  3  due to it being the only difference between counters  3 4 
+ removed duplicate counter 4 
+ removed button  3  and counter  3  after zeroing 
+ merged buttons  3 1  due to being the only differences between counters  2 1 
+ removed duplicate button 2 
+ DONE  131 
+ DONE  132 
+ ==> freevars:   2 
+ problem size 2170 
+ removed button  5  due to it being the only difference between counters  1 2 
+ removed duplicate counter 2 
+ merged buttons  8 1  due to being the only differences between counters  4 1 
+ removed duplicate counter 4 
+ ==> freevars:   2 
+ problem size 1925 
+ DONE  133 
+ ==> freevars:   2 
+ problem size 7020 
+ merged buttons  2 5  due to being the only differences between counters  1 5 
+ removed duplicate counter 5 
+ merged buttons  2 5  due to being the only differences between counters  7 8 
+ removed duplicate counter 8 
+ removed button  4  due to it being the only difference between counters  3 8 
+ removed duplicate counter 8 
+ ==> freevars:   2 
+ problem size 918 
+ DONE  134 
+ DONE  135 
+ DONE  136 
+ DONE  137 
+ DONE  138 
+ ==> freevars:   2 
+ problem size 1908 
+ merged buttons  1 5  due to being the only differences between counters  1 3 
+ removed duplicate button 1 
+ removed duplicate counter 3 
+ merged buttons  4 3  due to being the only differences between counters  2 1 
+ removed duplicate counter 2 
+ ==> freevars:   1 
+ problem size 16 
+ DONE  139 
+ ==> freevars:   1 
+ problem size 27 
+ removed duplicate counter 6 
+ removed duplicate counter 5 
+ merged buttons  2 4  due to being the only differences between counters  3 4 
+ removed duplicate counter 4 
+ ==> freevars:   1 
+ problem size 27 
+ DONE  140 
+ DONE  141 
+ ==> freevars:   1 
+ problem size 22 
+ removed duplicate counter 5 
+ removed duplicate counter 5 
+ removed button  2  due to it being the only difference between counters  2 3 
+ removed duplicate counter 3 
+ merged buttons  4 2  due to being the only differences between counters  3 1 
+ removed duplicate counter 3 
+ removed button  1  due to it being the only difference between counters  2 3 
+ removed duplicate counter 3 
+ merged buttons  3 1  due to being the only differences between counters  2 1 
+ removed duplicate button 1 
+ DONE  142 
+ ==> freevars:   2 
+ problem size 1849 
+ merged buttons  8 5  due to being the only differences between counters  7 3 
+ removed duplicate counter 7 
+ ==> freevars:   2 
+ problem size 429 
+ DONE  143 
+ DONE  144 
+ DONE  145 
+ ==> freevars:   1 
+ problem size 56 
+ removed duplicate counter 7 
+ merged buttons  2 4  due to being the only differences between counters  4 2 
+ removed duplicate counter 4 
+ ==> freevars:   1 
+ problem size 56 
+ DONE  146 
+ DONE  147 
+ ==> freevars:   2 
+ problem size 36 
+ removed button  8  due to it being the only difference between counters  3 4 
+ removed duplicate counter 4 
+ merged buttons  2 7  due to being the only differences between counters  1 3 
+ removed duplicate counter 3 
+ merged buttons  8 5  due to being the only differences between counters  1 3 
+ removed duplicate counter 3 
+ ==> freevars:   2 
+ problem size 36 
+ DONE  148 
+ DONE  149 
+ ==> freevars:   3 
+ problem size 118272 
+ removed duplicate counter 4 
+ removed button  11  due to it being the only difference between counters  1 4 
+ removed duplicate counter 4 
+ ==> freevars:   3 
+ problem size 40275 
+ DONE  150 
+ ==> freevars:   2 
+ problem size 1369 
+ removed button  7  due to it being the only difference between counters  6 9 
+ removed duplicate counter 9 
+ merged buttons  1 5  due to being the only differences between counters  3 7 
+ removed duplicate counter 7 
+ ==> freevars:   2 
+ problem size 289 
+ DONE  151 
+ ==> freevars:   2 
+ problem size 3102 
+ removed button  10  due to it being the only difference between counters  2 10 
+ removed duplicate counter 10 
+ ==> freevars:   2 
+ problem size 3102 
+ DONE  152 
+ ==> freevars:   2 
+ problem size 2028 
+ removed button  8  due to it being the only difference between counters  4 5 
+ removed duplicate counter 5 
+ ==> freevars:   2 
+ problem size 2028 
+ DONE  153 
+ DONE  154 
+ DONE  155 
+ DONE  156 
+ ==> freevars:   3 
+ problem size 763938 
+ ==> freevars:   3 
+ problem size 763938 
+ DONE  157 
+ DONE  158 
+ DONE  159 
+ DONE  160 
+ DONE  161 
+ ==> freevars:   1 
+ problem size 155 
+ removed button  8  due to it being the only difference between counters  6 7 
+ removed duplicate counter 7 
+ merged buttons  4 6  due to being the only differences between counters  2 6 
+ removed duplicate counter 6 
+ merged buttons  3 6  due to being the only differences between counters  6 4 
+ removed duplicate counter 6 
+ removed button  5  due to it being the only difference between counters  2 3 
+ removed duplicate counter 3 
+ merged buttons  1 3  due to being the only differences between counters  1 4 
+ removed duplicate counter 4 
+ ==> freevars:   1 
+ problem size 17 
+ DONE  162 
+ DONE  163 
+ ==> freevars:   2 
+ problem size 1936 
+ ==> freevars:   2 
+ problem size 1936 
+ DONE  164 
+ ==> freevars:   1 
+ problem size 52 
+ merged buttons  2 7  due to being the only differences between counters  1 4 
+ removed duplicate counter 4 
+ removed button  3  due to it being the only difference between counters  5 6 
+ removed duplicate counter 6 
+ ==> freevars:   1 
+ problem size 35 
+ DONE  165 
+ ==> freevars:   2 
+ problem size 966 
+ merged buttons  7 3  due to being the only differences between counters  2 3 
+ removed duplicate counter 3 
+ ==> freevars:   2 
+ problem size 714 
+ DONE  166 
+ ==> freevars:   1 
+ problem size 44 
+ removed duplicate counter 4 
+ merged buttons  6 9  due to being the only differences between counters  1 5 
+ removed duplicate counter 5 
+ merged buttons  5 8  due to being the only differences between counters  4 2 
+ removed duplicate counter 4 
+ ==> freevars:   1 
+ problem size 22 
+ DONE  167 
+ ==> freevars:   1 
+ problem size 45 
+ removed duplicate counter 8 
+ removed button  4  due to it being the only difference between counters  7 8 
+ removed duplicate counter 8 
+ removed button  7  due to it being the only difference between counters  1 5 
+ removed duplicate counter 5 
+ removed button  4  due to it being the only difference between counters  5 6 
+ removed duplicate counter 6 
+ merged buttons  4 5  due to being the only differences between counters  2 1 
+ removed duplicate counter 2 
+ ==> freevars:   1 
+ problem size 20 
+ DONE  168 
+ DONE  169 
+ DONE  170 
+ ==> freevars:   1 
+ problem size 35 
+ merged buttons  5 2  due to being the only differences between counters  1 4 
+ removed duplicate counter 4 
+ merged buttons  3 7  due to being the only differences between counters  4 2 
+ removed duplicate counter 4 
+ removed button  4  due to it being the only difference between counters  3 4 
+ removed duplicate counter 4 
+ removed button  5  due to it being the only difference between counters  4 5 
+ removed duplicate counter 5 
+ removed button  3  and counter  3  after zeroing 
+ merged buttons  1 2  due to being the only differences between counters  2 1 
+ removed duplicate counter 2 
+ merged buttons  2 1  due to being the only differences between counters  2 1 
+ removed duplicate button 1 
+ DONE  171 
+ DONE  172 
+ DONE  173 
+ DONE  174 
+ DONE  175 
+ DONE  176 
+ ==> freevars:   1 
+ problem size 44 
+ removed button  4  due to it being the only difference between counters  3 6 
+ removed duplicate counter 6 
+ merged buttons  1 7  due to being the only differences between counters  7 3 
+ removed duplicate counter 7 
+ merged buttons  2 3  due to being the only differences between counters  5 6 
+ removed duplicate counter 6 
+ ==> freevars:   1 
+ problem size 29 
+ DONE  177 
+ ==> freevars:   1 
+ problem size 16 
+ ==> freevars:   1 
+ problem size 16 
+ DONE  178 
+ ==> freevars:   1 
+ problem size 39 
+ merged buttons  2 4  due to being the only differences between counters  5 1 
+ removed duplicate counter 5 
+ ==> freevars:   1 
+ problem size 39 
+ DONE  179 
+ ==> freevars:   1 
+ problem size 42 
+ removed button  7  due to it being the only difference between counters  2 6 
+ removed duplicate counter 6 
+ removed button  2  due to it being the only difference between counters  1 4 
+ removed duplicate counter 4 
+ removed button  1  due to it being the only difference between counters  2 3 
+ removed duplicate counter 3 
+ merged buttons  1 4  due to being the only differences between counters  1 3 
+ removed duplicate counter 3 
+ merged buttons  2 3  due to being the only differences between counters  1 2 
+ removed duplicate button 1 
+ DONE  180 
+ DONE  181 
+ DONE  182 
+ DONE  183 
+ ==> freevars:   2 
+ problem size 1628 
+ merged buttons  3 2  due to being the only differences between counters  3 1 
+ removed duplicate counter 3 
+ ==> freevars:   2 
+ problem size 1184 
+ DONE  184 
+ ==> freevars:   2 
+ problem size 8064 
+ merged buttons  2 6  due to being the only differences between counters  3 2 
+ removed duplicate counter 3 
+ ==> freevars:   2 
+ problem size 7296 
+ DONE  185 
+ ==> freevars:   2 
+ problem size 2869 
+ removed button  2  and counter  3  after zeroing 
+ merged buttons  3 4  due to being the only differences between counters  2 1 
+ removed duplicate button 3 
+ removed duplicate counter 2 
+ merged buttons  2 1  due to being the only differences between counters  2 1 
+ removed duplicate button 1 
+ DONE  186 
+ ===> grand total:    73  157  79  74  234  201  37  30  200  99  194  55  64  57  50  70  152  38  74  167  51  254  143  35  62  104  33  64  262  85  48  79  101  313  62  153  46  208  203  34  26  60  250  102  196  95  66  91  61  96  75  105  42  81  23  63  118  75  27  71  56  199  217  59  41  108  211  274  281  151  134  77  7  50  66  250  223  91  74  61  45  68  84  29  240  60  29  32  34  35  155  182  57  203  72  115  98  42  118  65  52  66  100  43  107  59  26  86  47  81  101  113  18  21  212  115  32  89  38  60  39  55  173  19  162  147  87  75  68  115  90  192  141  211  77  210  30  50  72  40  182  46  104  195  90  66  231  245  100  238  81  91  96  27  23  60  248  20  245  175  97  196  61  107  90  45  97  80  79  7  205  150  34  49  90  45  105  84  115  89  96  110  61  75  242  158  
+
+      +/gt
+ 19210 
+      
